@@ -40,7 +40,7 @@ function fetchSucculents() {
                         $('sedum .row').append(succulentCard);
                     }
             });
-        }
+        },
         error: function (xhr, status, error) {
             console.error("Error fetching succulent:", error);
         }
