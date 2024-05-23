@@ -2,7 +2,7 @@
     "succulents": [
         {
             "id": "1",
-            "imgFile": "crassula_capitella_campfire.jpg",
+            "imgFile": "./images/crassula_capitella_campfire.jpg",
             "name": "Crassula capitella",
             "type": "Crassula",
             "price": "5.75",
@@ -11,7 +11,7 @@
         },
         {
             "id": "2",
-            "imgFile": "crassula_garnet_lotus.jpg",
+            "imgFile": "./images/crassula_garnet_lotus.jpg",
             "name": "Crassula 'Garnet Lotus'",
             "type": "Crassula",
             "price": "8.95",
@@ -20,7 +20,7 @@
         },
         {
             "id": "3",
-            "imgFile": "crassula_imperialis.jpg",
+            "imgFile": "./images/crassula_imperialis.jpg",
             "name": "Crassula 'Imperialis'",
             "type": "Crassula",
             "price": "9.50",
@@ -29,7 +29,7 @@
         },
         {
             "id": "4",
-            "imgFile": "echeveria_black_prince.jpg",
+            "imgFile": "./images/echeveria_black_prince.jpg",
             "name": "Echeveria 'Black Prince'",
             "type": "Echeveria",
             "price": "4.95",
@@ -38,7 +38,7 @@
         },
         {
             "id": "5",
-            "imgFile": "echeveria-setosa.jpg",
+            "imgFile": "./images/echeveria-setosa.jpg",
             "name": "Echeveria setosa",
             "type": "Echeveria",
             "price": "6.00",
@@ -47,7 +47,7 @@
         },
         {
             "id": "6",
-            "imgFile": "grap_lovely_rose.jpg",
+            "imgFile": "./images/grap_lovely_rose.jpg",
             "name": "Graptoveria 'Lovely Rose'",
             "type": "Echeveria",
             "price": "14.50",
@@ -56,7 +56,7 @@
         },
         {
             "id": "7",
-            "imgFile": "gasteria_bicolor.jpg",
+            "imgFile": "./images/gasteria_bicolor.jpg",
             "name": "Gasteria bicolor var. liliputana",
             "type": "Gasteria",
             "price": "6.00",
@@ -65,7 +65,7 @@
         },
         {
             "id": "8",
-            "imgFile": "gasteria_frosty.jpg",
+            "imgFile": "./images/gasteria_frosty.jpg",
             "name": "Gasteria 'Frosty'",
             "type": "Gasteria",
             "price": "11.75",
@@ -74,7 +74,7 @@
         },
         {
             "id": "9",
-            "imgFile": "gasteraloe_royal_highness.jpg",
+            "imgFile": "./images/gasteraloe_royal_highness.jpg",
             "name": "Gasteraloe 'Royal Highness'",
             "type": "Gasteria",
             "price": "5.50",
@@ -83,7 +83,7 @@
         },
         {
             "id": "10",
-            "imgFile": "sedeveria_pink_granite",
+            "imgFile": "./images/sedeveria_pink_granite.jpg",
             "name": "Sedeveria 'Pink Granite'",
             "type": "Sedeveria",
             "price": "6.50",
@@ -92,7 +92,7 @@
         },
         {
             "id": "11",
-            "imgFile": "sedeveria_jet_beads.jpg",
+            "imgFile": "./images/sedeveria_jet_beads.jpg",
             "name": "Sedeveria 'Jet Beads'",
             "type": "Sedeveria",
             "price": "6.50",
@@ -101,7 +101,7 @@
         },
         {
             "id": "12",
-            "imgFile": "sedeveria_blue_burrito.jpg",
+            "imgFile": "./images/sedeveria_blue_burrito.jpg",
             "name": "Sedeveria 'Blue Burrito'",
             "type": "Sedeveria",
             "price": "6.00",
@@ -110,7 +110,7 @@
         },
         {
             "id": "13",
-            "imgFile": "sedum_lime_zinger.jpg",
+            "imgFile": "./images/sedum_lime_zinger.jpg",
             "name": "Sedum 'Lime Zinger'",
             "type": "Sedum",
             "price": "11.00",
@@ -119,7 +119,7 @@
         },
         {
             "id": "14",
-            "imgFile": "sedum_dasyphyllum.jpg",
+            "imgFile": "./images/sedum_dasyphyllum.jpg",
             "name": "Sedum dasyphyllum 'Himalayan Skies'",
             "type": "Sedum",
             "price": "5.50",
@@ -128,7 +128,7 @@
         },
         {
             "id": "15",
-            "imgFile": "sedum_allantoides.jpg",
+            "imgFile": "./images/sedum_allantoides.jpg",
             "name": "Sedum allantoides",
             "type": "Sedum",
             "price": "7.50",
