@@ -13,8 +13,8 @@
         <nav class="navbar navbar-expand bg-success navbar-light">
             <div class="container-fluid d-flex flex-row-reverse">
                 <div class="collapse navbar-collapse">
-                    <!-- <ul class="navbar-nav ms-auto align-items-center"> -->
-                        <!-- <li class="nav-item">
+                     <ul class="navbar-nav ms-auto align-items-center">
+                        <li class="nav-item">
                             <a class="btn btn-success" role="button" href="registration.html" >
                                 Register</a>
                         </li>
@@ -29,8 +29,8 @@
                                     <i class="bi bi-basket"></i>
                                 </svg>
                             </a>
-                        </li> -->
-                    <!-- </ul> -->
+                        </li>
+                    </ul>
                 </div>
             </div>
         </nav>
@@ -48,83 +48,98 @@
         <h1 id="brand-title" class="text-center text-success fst-italic mt-3 mb-3">CactiCrafted</h1>
     </section>
     
-    
-    <!--This is a dropdown menu. I centered the content by changing the display to flex and using justify-content-center. I separated each dropdown button
-    into it's own div that includes the main button (ex: Shop Succulents) and the dropdown options below it. The aria-labelledby in the ul is referencing
-    "dropdownMenuButton1" (the button above it) for it's accessible name. -->
-    
-    
-        <section class="mid-nav-bar-dropdown">
-            <div class="dropdown bg-success d-flex justify-content-center">
-                <div class="btn-group">
-                    <button class="btn btn-success" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
-                        Shop Succulents
-                    </button>
-                    <ul class="dropdown-menu bg-secondary-subtle" aria-labelledby="dropdownMenuButton1">
-                        <li><a class="dropdown-item" href="#">Agave</a></li>
-                        <li><a class="dropdown-item" href="#">Cotyledon</a></li>
-                        <li><a class="dropdown-item" href="#">Crassula</a></li>
-                        <li><a class="dropdown-item" href="#">Echeveria</a></li>
-                        <li><a class="dropdown-item" href="#">Gasteria</a></li>
-                        <li><a class="dropdown-item" href="#">Haworthia</a></li>
-                        <li><a class="dropdown-item" href="#">Lithop</a></li>
-                        <li><a class="dropdown-item" href="#">Sempervivum</a></li>
-                        <li><a class="dropdown-item" href="#">Sedum</a></li>
-                    </ul>
-                </div>
-                <div class="btn-group">
-                    <button class="btn btn-success" type="button" id="dropdownMenuButton2" data-bs-toggle="dropdown" aria-expanded="false">
-                        Shop Cactus
-                    </button>
-                    <ul class="dropdown-menu bg-secondary-subtle" aria-labelledby="dropdownMenuButton2">
-                        <li><a class="dropdown-item" href="#">Cereus</a></li>
-                        <li><a class="dropdown-item" href="#">Copiapoa</a></li>
-                        <li><a class="dropdown-item" href="#">Gymnocalycium</a></li>
-                        <li><a class="dropdown-item" href="#">Mammillaria</a></li>
-                        <li><a class="dropdown-item" href="#">Parodia</a></li>
-                    </ul>
-                </div>
-                <div class="btn-group">
-                    <button class="btn btn-success" type="button" id="dropdownMenuButton3" data-bs-toggle="dropdown" aria-expanded="false">
-                        Soil
-                    </button>
-                    <ul class="dropdown-menu bg-secondary-subtle" aria-labelledby="dropdownMenuButton3">
-                        <li><a class="dropdown-item" href="#">Garden Soil</a></li>
-                        <li><a class="dropdown-item" href="#">Cactus Soil</a></li>
-                        <li><a class="dropdown-item" href="#">Soil Amendments</a></li>
-                    </ul>
-                </div>
-                <div class="btn-group">
-                    <button class="btn btn-success" type="button" id="dropdownMenuButton4" data-bs-toggle="dropdown" aria-expanded="false">
-                        Pots
-                    </button>
-                    <ul class="dropdown-menu bg-secondary-subtle" aria-labelledby="dropdownMenuButton4">
-                        <li><a class="dropdown-item" href="#">Ceramic</a></li>
-                        <li><a class="dropdown-item" href="#">Plastic</a></li>
-                        <li><a class="dropdown-item" href="#">Teracotta</a></li>
-                        <li><a class="dropdown-item" href="#">Large Planters</a></li>
-                    </ul>
-                </div>
-                <div class="btn-group">
-                    <button class="btn btn-success" type="button" id="dropdownMenuButton5" data-bs-toggle="dropdown" aria-expanded="false">
-                        Tools
-                    </button>
-                    <ul class="dropdown-menu bg-secondary-subtle" aria-labelledby="dropdownMenuButton5">
-                        <li><a class="dropdown-item" href="#">Hand Tools</a></li>
-                        <li><a class="dropdown-item" href="#">Specialty Tools</a></li>
-                    </ul>
-                </div>
+    <section class="mid-nav-bar-dropdown">
+        <div class="dropdown bg-success d-flex justify-content-center">
+            <div class="btn-group">
+                <button class="btn btn-success" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                    Shop Succulents
+                </button>
+                <ul class="dropdown-menu bg-secondary-subtle" aria-labelledby="dropdownMenuButton1">
+                    <li><a class="dropdown-item" href="#">Crassula</a></li>
+                    <li><a class="dropdown-item" href="#">Echeveria</a></li>
+                    <li><a class="dropdown-item" href="#">Gasteria</a></li>
+                    <li><a class="dropdown-item" href="#">Sedeveria</a></li>
+                    <li><a class="dropdown-item" href="#">Sedum</a></li>
+                </ul>
             </div>
-        </section>                
+            <div class="btn-group">
+                <button class="btn btn-success" type="button" id="dropdownMenuButton2" data-bs-toggle="dropdown" aria-expanded="false">
+                    Shop Cactus
+                </button>
+                <ul class="dropdown-menu bg-secondary-subtle" aria-labelledby="dropdownMenuButton2">
+                    <li><a class="dropdown-item" href="#">Cereus</a></li>
+                    <li><a class="dropdown-item" href="#">Copiapoa</a></li>
+                    <li><a class="dropdown-item" href="#">Gymnocalycium</a></li>
+                    <li><a class="dropdown-item" href="#">Mammillaria</a></li>
+                    <li><a class="dropdown-item" href="#">Parodia</a></li>
+                </ul>
+            </div>
+            <div class="btn-group">
+                <button class="btn btn-success" type="button" id="dropdownMenuButton3" data-bs-toggle="dropdown" aria-expanded="false">
+                    Soil
+                </button>
+                <ul class="dropdown-menu bg-secondary-subtle" aria-labelledby="dropdownMenuButton3">
+                    <li><a class="dropdown-item" href="#">Garden Soil</a></li>
+                    <li><a class="dropdown-item" href="#">Cactus Soil</a></li>
+                    <li><a class="dropdown-item" href="#">Soil Amendments</a></li>
+                </ul>
+            </div>
+            <div class="btn-group">
+                <button class="btn btn-success" type="button" id="dropdownMenuButton4" data-bs-toggle="dropdown" aria-expanded="false">
+                    Pots
+                </button>
+                <ul class="dropdown-menu bg-secondary-subtle" aria-labelledby="dropdownMenuButton4">
+                    <li><a class="dropdown-item" href="#">Ceramic</a></li>
+                    <li><a class="dropdown-item" href="#">Plastic</a></li>
+                    <li><a class="dropdown-item" href="#">Teracotta</a></li>
+                    <li><a class="dropdown-item" href="#">Large Planters</a></li>
+                </ul>
+            </div>
+            <div class="btn-group">
+                <button class="btn btn-success" type="button" id="dropdownMenuButton5" data-bs-toggle="dropdown" aria-expanded="false">
+                    Tools
+                </button>
+                <ul class="dropdown-menu bg-secondary-subtle" aria-labelledby="dropdownMenuButton5">
+                    <li><a class="dropdown-item" href="#">Hand Tools</a></li>
+                    <li><a class="dropdown-item" href="#">Specialty Tools</a></li>
+                </ul>
+            </div>
+        </div>
+    </section>                
     
     <br><br><br>
     
     
-    <!--This is the plant-tiles section. Here I created a row with 3 columns. In each column is a plant card that has an image,
-    title, and button that would link to a product page for that plant. For this section I used col-md-4 because I wanted my columns
-    to break at the medium breakpoint and because each of the 3 tiles needed to be 4 of the 12 sections in the row. 
-    I also italicized the plant names in the h4 elements.-->
-    
-    
-        <section class="plant-tiles">
-            <h2 class="text-center mb-4">Our Favorites</h2>
+    <h2 class="text-center mb-4">Crassulas</h2>
+        <div class="container">
+            <div class="row" id="crassula-row">
+                <div class="col-md-3">
+                    <!-- <div class="card" style="width: 18rem;">
+                        THIS IS WHERE THE IMAGE WILL GO
+                        <div class="card-body">
+                            <h5 class="card-title">THIS IS WHERE THE NAME WILL GO</h5>
+                            <p>THIS IS WHERE THE PRICE WILL GO</p>
+                             <p>THIS IS WHERE THE SUN NEEDS GO</p>
+                        </div>
+                    </div> -->
+                </div>
+            </div>
+        </div>
+    <h2 class="text-center mb-4">Echeveria</h2>
+        <div class="container">
+            <div class="row" id="echeveria-row"></div>
+        </div>
+    <h2 class="text-center mb-4">Gastoria</h2>
+        <div class="container">
+            <div class="row" id="gastoria-row"></div>
+        </div>
+    <h2 class="text-center mb-4">Sedeveria</h2>
+        <div class="container">
+            <div class="row" id="sedeveria-row"></div>
+        </div>
+    <h2 class="text-center mb-4">Sedum</h2>
+        <div class="container">
+            <div class="row" id="sedum-row"></div>
+        </div>
+
+
