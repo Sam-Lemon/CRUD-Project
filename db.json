@@ -2,123 +2,108 @@
     "succulents": [
         {
             "id": "1",
-            "img": "https://cdn11.bigcommerce.com/s-oqm1pc/images/stencil/631x631/products/1067/24806/crassula_capitella_campfire__20461.1712778517.jpg?c=3",
+            "imgURL": "https://cdn11.bigcommerce.com/s-oqm1pc/images/stencil/631x631/products/1067/24806/crassula_capitella_campfire__20461.1712778517.jpg?c=3",
             "name": "Crassula capitella",
             "type": "Crassula",
-            "care": "Soft succulent that will not survive a hard frost. Requires bright indoor light or full sun, infrequent watering and great drainage.",
-            "favorite": false
+            "care": "Soft succulent that will not survive a hard frost. Requires bright indoor light or full sun, infrequent watering and great drainage."
         },
         {
             "id": "2",
-            "img": "./images/crassula_garnet_lotus.jpg",
+            "imgURL": "https://cdn11.bigcommerce.com/s-oqm1pc/images/stencil/631x631/products/6934/28819/crassula_garnet_lotus_1__90063.1714693089.jpg?c=3",
             "name": "Crassula 'Garnet Lotus'",
             "type": "Crassula",
-            "care": "Soft succulent that will not survive a hard frost. Requires filtered/partial sun, or low indoor light, infrequent watering and great drainage.",
-            "favorite": false
+            "care": "Soft succulent that will not survive a hard frost. Requires filtered/partial sun, or low indoor light, infrequent watering and great drainage."
         },
         {
             "id": "3",
-            "img": "./images/crassula_imperialis.jpg",
+            "imgURL": "https://cdn11.bigcommerce.com/s-oqm1pc/images/stencil/631x631/products/2160/19082/watch_chain_large2__28144.1648759735.jpg?c=3",
             "name": "Crassula 'Imperialis'",
             "type": "Crassula",
-            "care": "Soft succulent that will not survive a hard frost. Requires filtered/partial sun, or bright indoor light, infrequent watering and great drainage.",
-            "favorite": false
+            "care": "Soft succulent that will not survive a hard frost. Requires filtered/partial sun, or bright indoor light, infrequent watering and great drainage."
         },
         {
             "id": "4",
-            "img": "./images/echeveria_black_prince.jpg",
+            "imgURL": "https://cdn11.bigcommerce.com/s-oqm1pc/images/stencil/631x631/products/3040/28820/ech_dark_rose_1__44377.1714692774.jpg?c=3",
             "name": "Echeveria 'Black Prince'",
             "type": "Echeveria",
-            "care": "Needs bright indoor light or filtered/partial sun, great drainage and infrequent watering.",
-            "favorite": false
+            "care": "Needs bright indoor light or filtered/partial sun, great drainage and infrequent watering."
         },
         {
             "id": "5",
-            "img": "./images/echeveria-setosa.jpg",
+            "imgURL": "https://cdn11.bigcommerce.com/s-oqm1pc/images/stencil/631x631/products/5340/21983/ech_setosa_var_setosa_1__81917.1653671796.jpg?c=3",
             "name": "Echeveria setosa",
             "type": "Echeveria",
-            "care": "Needs bright indoor light or filtered/partial sun, great drainage and infrequent watering.",
-            "favorite": false
+            "care": "Needs bright indoor light or filtered/partial sun, great drainage and infrequent watering."
         },
         {
             "id": "6",
-            "img": "./images/grap_lovely_rose.jpg",
+            "imgURL": "https://cdn11.bigcommerce.com/s-oqm1pc/images/stencil/631x631/products/6087/26484/grap_lovely_rose_3__20582.1707265536.jpg?c=3",
             "name": "Graptoveria 'Lovely Rose'",
             "type": "Echeveria",
-            "care": "Soft succulent that will not survive a hard frost. Requires bright indoor light or full sun, great drainage and infrequent watering.",
-            "favorite": false
+            "care": "Soft succulent that will not survive a hard frost. Requires bright indoor light or full sun, great drainage and infrequent watering."
         },
         {
             "id": "7",
-            "img": "./images/gasteria_bicolor.jpg",
+            "imgURL": "./images/gasteria_bicolor.jpg",
             "name": "Gasteria bicolor var. liliputana",
             "type": "Gasteria",
-            "care": "🌥",
-            "favorite": false
+            "care": "🌥"
         },
         {
             "id": "8",
-            "img": "./images/gasteria_frosty.jpg",
+            "imgURL": "./images/gasteria_frosty.jpg",
             "name": "Gasteria 'Frosty'",
             "type": "Gasteria",
-            "care": "🌥",
-            "favorite": false
+            "care": "🌥"
         },
         {
             "id": "9",
-            "img": "./images/gasteraloe_royal_highness.jpg",
+            "imgURL": "./images/gasteraloe_royal_highness.jpg",
             "name": "Gasteraloe 'Royal Highness'",
             "type": "Gasteria",
-            "care": "🌥",
-            "favorite": false
+            "care": "🌥"
         },
         {
             "id": "10",
-            "img": "./images/sedeveria_pink_granite.jpg",
+            "imgURL": "./images/sedeveria_pink_granite.jpg",
             "name": "Sedeveria 'Pink Granite'",
             "type": "Sedeveria",
-            "care": "☼🌥",
-            "favorite": false
+            "care": "☼🌥"
         },
         {
             "id": "11",
-            "img": "./images/sedeveria_jet_beads.jpg",
+            "imgURL": "./images/sedeveria_jet_beads.jpg",
             "name": "Sedeveria 'Jet Beads'",
             "type": "Sedeveria",
-            "care": "☼",
-            "favorite": false
+            "care": "☼"
         },
         {
             "id": "12",
-            "img": "./images/sedeveria_blue_burrito.jpg",
+            "imgURL": "./images/sedeveria_blue_burrito.jpg",
             "name": "Sedeveria 'Blue Burrito'",
             "type": "Sedeveria",
-            "care": "☼🌥",
-            "favorite": false
+            "care": "☼🌥"
         },
         {
             "id": "13",
-            "img": "./images/sedum_lime_zinger.jpg",
+            "imgURL": "./images/sedum_lime_zinger.jpg",
             "name": "Sedum 'Lime Zinger'",
             "type": "Sedum",
-            "care": "🌥",
-            "favorite": false
+            "care": "🌥"
         },
         {
             "id": "14",
-            "img": "./images/sedum_dasyphyllum.jpg",
+            "imgURL": "./images/sedum_dasyphyllum.jpg",
             "name": "Sedum dasyphyllum 'Himalayan Skies'",
             "type": "Sedum",
-            "care": "☼",
-            "favorite": false
+            "care": "☼"
         },
         {
             "id": "15",
-            "img": "./images/sedum_allantoides.jpg",
+            "imgURL": "./images/sedum_allantoides.jpg",
             "name": "Sedum allantoides",
             "type": "Sedum",
-            "care": "☼",
-            "favorite": false
+            "care": "☼"
         }
     ]
 }

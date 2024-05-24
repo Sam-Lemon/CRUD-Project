@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Plant Library</title>
+    <link rel="stylesheet" href="styles.css">
     <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.css">
 </head>
 <body class="bg-success-subtle">
@@ -138,8 +139,8 @@
             <form>
                 <h4>Add New Succulent</h4>
                 <div>
-                    <label for="newImg">Succulent Image</label>
-                    <input id="newImg"/>
+                    <label for="newImgURL">Succulent Image</label>
+                    <input id="newImgURL"/>
                 </div>
                 <div>
                     <label for="newName">Succulent Name</label>
@@ -160,30 +161,6 @@
         </section>
 
 
-        <!-- UPDATE SUCCULENT FORM -->
-        <section id="update-form">
-            <form>
-                <h4>Update Succulent</h4>
-                <div>
-                    <label for="updateID">Succulent ID</label>
-                    <input id="updateID"/>
-                </div>
-                <div>
-                    <label for="updateName">Succulent Name</label>
-                    <input id="updateName"/>
-                </div>
-                <div>
-                    <label for="updateType">Succulent Type</label>
-                    <input id="updateType"/>
-                </div>
-                <div>
-                    <label for="updateCare">Care Instructions</label>
-                    <input id="updateCare"/>
-                </div>
-                <button id="submit-update">Submit</button>
-            </form>
-        </section>
-    </div>
 
     <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
     <script src="node_modules/jquery/dist/jquery.js"></script>

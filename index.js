@@ -14,7 +14,7 @@ function fetchSucculents() {
                 //creating the card element for the data to be pushed into
                 const succulentCard = `
                         <div class="card bg-success">
-                            <img src="${succulent.imgFile}" class="card-img-top mt-3" alt="${succulent.name}"/>
+                            <img src="${succulent.imgURL}" class="card-img-top mt-3" alt="${succulent.name}"/>
                             <div class="card-body mb-3 bg-success-subtle"
                                 <p class="card-title fs-1"><strong>${succulent.name}</strong></p>
                                 <p class="card-text">${succulent.care}</p>
@@ -49,10 +49,12 @@ fetchSucculents();
 
 
 //ADD NEW SUCCULENT
-$('#submit-succulent').click(function () {
+$('#submit-succulent').click(function (e) {
+    // e.preventDefault()   //when in form button default is to refresh page, this stops that from happening
+    // console.log('new succulent please work')
 
-    $.post(URL_ENDPOINT, {
-        img: $('#newImg').val(),
+    $.post(URL_ENDPOINT, {  //2 arguments needed, url and an object
+        imgURL: $('#newImgURL').val(),
         name: $('#newName').val(),
         type: $('#newType').val(),
         care: $('#newCare').val(),
@@ -66,20 +68,4 @@ function deleteSucculent(id) {
     })
 };
 
-
-//UPDATE SUCCULENT
-function updateSucculent() {
-    let id = $('#updateId').val();
-
-    $.ajax(`${URL_ENDPOINT}/${id}`, {
-        method: 'PUT',
-        data: {
-            name: $('#updateName').val(),
-            type: $('updateType').val(),
-            care: $('updateCare').val(),
-        }
-    })
-};
-
-$('#submit-update').click(updateSucculent);
 
