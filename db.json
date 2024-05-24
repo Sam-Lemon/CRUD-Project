@@ -2,137 +2,122 @@
     "succulents": [
         {
             "id": "1",
-            "imgFile": "./images/crassula_capitella_campfire.jpg",
+            "img": "https://cdn11.bigcommerce.com/s-oqm1pc/images/stencil/631x631/products/1067/24806/crassula_capitella_campfire__20461.1712778517.jpg?c=3",
             "name": "Crassula capitella",
             "type": "Crassula",
-            "price": "5.75",
-            "care": "☀ or 🌤",
+            "care": "Soft succulent that will not survive a hard frost. Requires bright indoor light or full sun, infrequent watering and great drainage.",
             "favorite": false
         },
         {
             "id": "2",
-            "imgFile": "./images/crassula_garnet_lotus.jpg",
+            "img": "./images/crassula_garnet_lotus.jpg",
             "name": "Crassula 'Garnet Lotus'",
             "type": "Crassula",
-            "price": "8.95",
-            "care": "🌤",
+            "care": "Soft succulent that will not survive a hard frost. Requires filtered/partial sun, or low indoor light, infrequent watering and great drainage.",
             "favorite": false
         },
         {
             "id": "3",
-            "imgFile": "./images/crassula_imperialis.jpg",
+            "img": "./images/crassula_imperialis.jpg",
             "name": "Crassula 'Imperialis'",
             "type": "Crassula",
-            "price": "9.50",
-            "care": "☀ or 🌤",
+            "care": "Soft succulent that will not survive a hard frost. Requires filtered/partial sun, or bright indoor light, infrequent watering and great drainage.",
             "favorite": false
         },
         {
             "id": "4",
-            "imgFile": "./images/echeveria_black_prince.jpg",
+            "img": "./images/echeveria_black_prince.jpg",
             "name": "Echeveria 'Black Prince'",
             "type": "Echeveria",
-            "price": "4.95",
-            "care": "☀",
+            "care": "Needs bright indoor light or filtered/partial sun, great drainage and infrequent watering.",
             "favorite": false
         },
         {
             "id": "5",
-            "imgFile": "./images/echeveria-setosa.jpg",
+            "img": "./images/echeveria-setosa.jpg",
             "name": "Echeveria setosa",
             "type": "Echeveria",
-            "price": "6.00",
-            "care": "☀",
+            "care": "Needs bright indoor light or filtered/partial sun, great drainage and infrequent watering.",
             "favorite": false
         },
         {
             "id": "6",
-            "imgFile": "./images/grap_lovely_rose.jpg",
+            "img": "./images/grap_lovely_rose.jpg",
             "name": "Graptoveria 'Lovely Rose'",
             "type": "Echeveria",
-            "price": "14.50",
-            "care": "☀",
+            "care": "Soft succulent that will not survive a hard frost. Requires bright indoor light or full sun, great drainage and infrequent watering.",
             "favorite": false
         },
         {
             "id": "7",
-            "imgFile": "./images/gasteria_bicolor.jpg",
+            "img": "./images/gasteria_bicolor.jpg",
             "name": "Gasteria bicolor var. liliputana",
             "type": "Gasteria",
-            "price": "6.00",
-            "care": "🌤",
+            "care": "🌥",
             "favorite": false
         },
         {
             "id": "8",
-            "imgFile": "./images/gasteria_frosty.jpg",
+            "img": "./images/gasteria_frosty.jpg",
             "name": "Gasteria 'Frosty'",
             "type": "Gasteria",
-            "price": "11.75",
-            "care": "🌤",
+            "care": "🌥",
             "favorite": false
         },
         {
             "id": "9",
-            "imgFile": "./images/gasteraloe_royal_highness.jpg",
+            "img": "./images/gasteraloe_royal_highness.jpg",
             "name": "Gasteraloe 'Royal Highness'",
             "type": "Gasteria",
-            "price": "5.50",
-            "care": "🌤",
+            "care": "🌥",
             "favorite": false
         },
         {
             "id": "10",
-            "imgFile": "./images/sedeveria_pink_granite.jpg",
+            "img": "./images/sedeveria_pink_granite.jpg",
             "name": "Sedeveria 'Pink Granite'",
             "type": "Sedeveria",
-            "price": "6.50",
-            "care": "☀ or 🌤",
+            "care": "☼🌥",
             "favorite": false
         },
         {
             "id": "11",
-            "imgFile": "./images/sedeveria_jet_beads.jpg",
+            "img": "./images/sedeveria_jet_beads.jpg",
             "name": "Sedeveria 'Jet Beads'",
             "type": "Sedeveria",
-            "price": "6.50",
-            "care": "☀",
+            "care": "☼",
             "favorite": false
         },
         {
             "id": "12",
-            "imgFile": "./images/sedeveria_blue_burrito.jpg",
+            "img": "./images/sedeveria_blue_burrito.jpg",
             "name": "Sedeveria 'Blue Burrito'",
             "type": "Sedeveria",
-            "price": "6.00",
-            "care": "☀ or 🌤",
+            "care": "☼🌥",
             "favorite": false
         },
         {
             "id": "13",
-            "imgFile": "./images/sedum_lime_zinger.jpg",
+            "img": "./images/sedum_lime_zinger.jpg",
             "name": "Sedum 'Lime Zinger'",
             "type": "Sedum",
-            "price": "11.00",
-            "care": "🌤",
+            "care": "🌥",
             "favorite": false
         },
         {
             "id": "14",
-            "imgFile": "./images/sedum_dasyphyllum.jpg",
+            "img": "./images/sedum_dasyphyllum.jpg",
             "name": "Sedum dasyphyllum 'Himalayan Skies'",
             "type": "Sedum",
-            "price": "5.50",
-            "care": "☀",
+            "care": "☼",
             "favorite": false
         },
         {
             "id": "15",
-            "imgFile": "./images/sedum_allantoides.jpg",
+            "img": "./images/sedum_allantoides.jpg",
             "name": "Sedum allantoides",
             "type": "Sedum",
-            "price": "7.50",
-            "care": "☀",
+            "care": "☼",
             "favorite": false
         }
     ]

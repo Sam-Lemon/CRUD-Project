@@ -44,7 +44,7 @@
                         width="100%">
             </div>
         </div>
-        <h1 id="brand-title" class="text-center text-success fst-italic mt-3 mb-3">Memorial Day Sale!</h1>
+        <h1 id="brand-title" class="text-center text-success fst-italic mt-3 mb-3">Plant Info</h1>
     </section>
     
     <section class="mid-nav-bar-dropdown">
@@ -108,31 +108,82 @@
     
     <br><br><br>
     
-    <section id="favorites" class="plant-card container">
-        <h2 class="mb-3">Favorites</h2>
-        <div class="row"></div>
-    </section>
-    <section id="crassula" class="plant-card container">
-        <h2 class="mb-3">Crassulas</h2>
-        <div class="row"></div>
-    </section>
-    <section id="echevaria" class="plant-card container">
-        <h2 class="mb-3">Echeveria</h2>
-        <div class="row"></div>
-    </section>
-    <section id="gastoria" class="plant-card container">
-        <h2 class="mb-3">Gastoria</h2>
-        <div class="row"></div>
-    </section>
-    <section id="sedeveria" class="plant-card container">
-        <h2 class="mb-3">Sedeveria</h2>
-        <div class="row"></div>
-    </section>
-    <section id="sedum" class="plant-card container">
-        <h2 class="mb-3">Sedum</h2>
-        <div class="row"></div>
+    <!-- READ PORTION -->
+    <section id="read-portion">
+        <div id="crassula" class="col-sm-3">
+            <h2>Crassula</h2>
+            <div class="row"></div>
+        </div>
+        <div id="echevaria" class="col-sm-3">
+            <h2>Echeveria</h2>
+            <div class="row"></div>
+        </div>
+        <div id="gasteria" class="col-sm-3">
+            <h2>Gasteria</h2>
+            <div class="row"></div>
+        </div>
+        <div id="sedeveria" class="col-sm-3">
+            <h2>Sedeveria</h2>
+            <div class="row"></div>
+        </div>
+        <div id="sedum" class="col-sm-3">
+            <h2>Sedum</h2>
+            <div class="row"></div>
+        </div>
     </section>
 
+    <!-- NEW SUCCULENT FORM -->
+    <div id="forms">
+        <section id="new-form">
+            <form>
+                <h4>Add New Succulent</h4>
+                <div>
+                    <label for="newImg">Succulent Image</label>
+                    <input id="newImg"/>
+                </div>
+                <div>
+                    <label for="newName">Succulent Name</label>
+                    <input id="newName"/>
+                </div>
+                <div>
+                    <label for="newType">Succulent Type</label>
+                    <input id="newType"/>  
+                </div>
+                <div>
+                    <label for="newCare">Care Instructions</label>
+                    <input id="newCare"/>  
+                </div>
+
+        
+                <button id="submit-succulent">Submit</button>
+            </form>
+        </section>
+
+
+        <!-- UPDATE SUCCULENT FORM -->
+        <section id="update-form">
+            <form>
+                <h4>Update Succulent</h4>
+                <div>
+                    <label for="updateID">Succulent ID</label>
+                    <input id="updateID"/>
+                </div>
+                <div>
+                    <label for="updateName">Succulent Name</label>
+                    <input id="updateName"/>
+                </div>
+                <div>
+                    <label for="updateType">Succulent Type</label>
+                    <input id="updateType"/>
+                </div>
+                <div>
+                    <label for="updateCare">Care Instructions</label>
+                    <input id="updateCare"/>
+                </div>
+                <button id="submit-update">Submit</button>
+            </form>
+        </section>
+    </div>
 
     <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
     <script src="node_modules/jquery/dist/jquery.js"></script>
