@@ -10,7 +10,7 @@ function fetchSucculents() {
             $('#crassula .row, #echeveria .row, #gasteria .row, #sedeveria .row, #sedum .row').empty(); //clears out rows so we have a fresh start
             succulents.forEach(succulent => {   //iterating through the data
                 // console.log("testing if iterating through array", succulent);
-                //creating the card element for the data to be pushed into
+                //creating the card element for the data to be pushed into. use jquery to drop data into the right places
                 const succulentCard = `
                     <div class="col-sm-3"
                         <div class="card">
@@ -22,7 +22,7 @@ function fetchSucculents() {
                                 </div>
                         </div>
                     </div>
-                `;  //putting the succulent cards into the correct row using dot notation and their type
+                `;  //appending the succulent cards created above into the correct row using dot notation and their HTML type
                     if (succulent.type === "Crassula") {
                         $('#crassula .row').append(succulentCard);
                         // console.log("testing Crassula")
@@ -41,7 +41,7 @@ function fetchSucculents() {
                     };
             });
         },
-        error: function (xhr, status, error) {
+        error: function (xhr, status, error) {  //error to cover any instances that do not fit into the above if/else if statement
             console.error("Error fetching succulent:", error);
         }
     });
@@ -54,23 +54,23 @@ $('#submit-succulent').click(function (e) {
     // e.preventDefault()   //when in form button default is to refresh page, this stops that from happening
     // console.log('new succulent please work')
 
-    $.post(URL_ENDPOINT, {  //2 arguments needed, url and an object
-        imgURL: $('#newImgURL').val(),
+    $.post(URL_ENDPOINT, {  //using post method to push new information into the server. 2 arguments needed, url and an object
+        imgURL: $('#newImgURL').val(),  //use .val() to grab the value placed within the input field
         name: $('#newName').val(),
         type: $('#newType').val(),
         care: $('#newCare').val(),
         success: function() {
-            location.reload();
+            location.reload();  //reloads the webpage to update
         }
     })
   })
 
 //DELETE SUCCULENT
-function deleteSucculent(id) {
+function deleteSucculent(id) {  //using delete method with ajax, using specific element id to remove succulent on the click of the button
     $.ajax(`${URL_ENDPOINT}/${id}`, {
         method: 'DELETE',
         success: function() {
-            location.reload();
+            location.reload();  //reloads the webpage to update
         }
     })
 };
