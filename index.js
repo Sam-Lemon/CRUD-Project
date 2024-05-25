@@ -10,17 +10,18 @@ function fetchSucculents() {
             $('#crassula .row, #echeveria .row, #gasteria .row, #sedeveria .row, #sedum .row').empty(); //clears out rows so we have a fresh start
             succulents.forEach(succulent => {   //iterating through the data
                 // console.log("testing if iterating through array", succulent);
-                // const favorite = succulents.favorite ? 'fas' : 'far';
                 //creating the card element for the data to be pushed into
                 const succulentCard = `
-                        <div class="card bg-success">
-                            <img src="${succulent.imgURL}" class="card-img-top mt-3" alt="${succulent.name}"/>
-                            <div class="card-body mb-3 bg-success-subtle"
-                                <p class="card-title fs-1"><strong>${succulent.name}</strong></p>
+                    <div class="col-sm-3"
+                        <div class="card">
+                            <img src="${succulent.imgURL}" class="card-img-top mt-3 rounded" alt="${succulent.name}"/>
+                            <div class="card-body mb-3"
+                                <h2 class="card-title pt-3"><strong>${succulent.name}</strong></h2>
                                 <p class="card-text">${succulent.care}</p>
-                                <button onclick="deleteSucculent(${succulent.id})">🗑️</button>
+                                <button id="delete-button" onclick="deleteSucculent(${succulent.id})">🗑️</button>
                                 </div>
                         </div>
+                    </div>
                 `;  //putting the succulent cards into the correct row using dot notation and their type
                     if (succulent.type === "Crassula") {
                         $('#crassula .row').append(succulentCard);
@@ -58,13 +59,19 @@ $('#submit-succulent').click(function (e) {
         name: $('#newName').val(),
         type: $('#newType').val(),
         care: $('#newCare').val(),
+        success: function() {
+            location.reload();
+        }
     })
   })
 
 //DELETE SUCCULENT
 function deleteSucculent(id) {
     $.ajax(`${URL_ENDPOINT}/${id}`, {
-        method: 'DELETE'
+        method: 'DELETE',
+        success: function() {
+            location.reload();
+        }
     })
 };
 

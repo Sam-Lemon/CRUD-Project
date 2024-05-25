@@ -1,0 +1,20 @@
+.new-succulent-form {
+    background-color:rgba(199, 228, 188, 0.789);
+    color: rgb(25,135,84);
+    width: 400px;
+    border: 6px groove rgb(25,135,84);
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
+}
+
+.plant-type {
+    color: rgb(24, 113, 72);
+    text-shadow: 1px 1px grey;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-left: 20px;
+}
+
+#read-portion {
+    margin-left: 30px;
+}

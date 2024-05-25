@@ -44,66 +44,66 @@
         },
         {
             "id": "7",
-            "imgURL": "./images/gasteria_bicolor.jpg",
+            "imgURL": "https://cdn11.bigcommerce.com/s-oqm1pc/images/stencil/631x631/products/4295/25294/gasteria_bicolor_var_lilputana_1__13432.1695236893.jpg?c=3",
             "name": "Gasteria bicolor var. liliputana",
             "type": "Gasteria",
-            "care": "🌥"
+            "care": "Tolerates low light conditions. Plant in deep pot as it grows deep roots and cannot withstand standing water. Water deeply when soil is completely dry."
         },
         {
             "id": "8",
-            "imgURL": "./images/gasteria_frosty.jpg",
+            "imgURL": "https://cdn11.bigcommerce.com/s-oqm1pc/images/stencil/631x631/products/2612/19411/gasteria_frosty__20730.1642014172.jpg?c=3",
             "name": "Gasteria 'Frosty'",
             "type": "Gasteria",
-            "care": "🌥"
+            "care": "Tolerates low light conditions. Plant in deep pot as it grows deep roots and cannot withstand standing water. Water deeply when soil is completely dry."
         },
         {
             "id": "9",
-            "imgURL": "./images/gasteraloe_royal_highness.jpg",
+            "imgURL": "https://cdn11.bigcommerce.com/s-oqm1pc/images/stencil/631x631/products/1562/20555/gasteraloe_royal_highness_3__29638.1684172156.jpg?c=3",
             "name": "Gasteraloe 'Royal Highness'",
             "type": "Gasteria",
-            "care": "🌥"
+            "care": "Soft succulent that will not survive a hard frost. Will tolerate drought and low-light conditions. Require good drainage and infrequent watering."
         },
         {
             "id": "10",
-            "imgURL": "./images/sedeveria_pink_granite.jpg",
+            "imgURL": "https://cdn11.bigcommerce.com/s-oqm1pc/images/stencil/631x631/products/1399/6487/pink_granite__70556.1652982917.jpg?c=3",
             "name": "Sedeveria 'Pink Granite'",
             "type": "Sedeveria",
-            "care": "☼🌥"
+            "care": "Soft succulent that will not survive a hard frost. Requires bright indoor light or partial/filtered sunlight. Water infrequently."
         },
         {
             "id": "11",
-            "imgURL": "./images/sedeveria_jet_beads.jpg",
+            "imgURL": "https://cdn11.bigcommerce.com/s-oqm1pc/images/stencil/631x631/products/1398/9190/sedeveria_jet_beads__85049.1655325574.jpg?c=3",
             "name": "Sedeveria 'Jet Beads'",
             "type": "Sedeveria",
-            "care": "☼"
+            "care": "Soft succulent that will not survive a hard frost. Requires bright indoor light or partial/filtered sunlight. Water infrequently."
         },
         {
             "id": "12",
-            "imgURL": "./images/sedeveria_blue_burrito.jpg",
+            "imgURL": "https://cdn11.bigcommerce.com/s-oqm1pc/images/stencil/631x631/products/1508/1798/sedeveria_blue_burrito__76403.1654877571.jpg?c=3",
             "name": "Sedeveria 'Blue Burrito'",
             "type": "Sedeveria",
-            "care": "☼🌥"
+            "care": "Soft succulent that will not survive a hard frost. Requires bright indoor light or partial/filtered sunlight. Water infrequently."
         },
         {
             "id": "13",
-            "imgURL": "./images/sedum_lime_zinger.jpg",
+            "imgURL": "https://cdn11.bigcommerce.com/s-oqm1pc/images/stencil/631x631/products/3741/29172/lime_zinger_4__59081.1716396061.jpg?c=3",
             "name": "Sedum 'Lime Zinger'",
             "type": "Sedum",
-            "care": "🌥"
+            "care": "Frost hardy and thrives outdoors with full sun and great drainage. Drought tolerant."
         },
         {
             "id": "14",
-            "imgURL": "./images/sedum_dasyphyllum.jpg",
+            "imgURL": "https://cdn11.bigcommerce.com/s-oqm1pc/images/stencil/1280x1280/products/2624/5596/sedum_dasyphyllum_himalayan_skies__40339.1655327951.jpg?c=3",
             "name": "Sedum dasyphyllum 'Himalayan Skies'",
             "type": "Sedum",
-            "care": "☼"
+            "care": "Frost hardy and thrives outdoors with full sun and great drainage. Drought tolerant."
         },
         {
             "id": "15",
-            "imgURL": "./images/sedum_allantoides.jpg",
+            "imgURL": "https://cdn11.bigcommerce.com/s-oqm1pc/images/stencil/631x631/products/6953/28882/sedum_allantoides_1__94715.1714694783.jpg?c=3",
             "name": "Sedum allantoides",
             "type": "Sedum",
-            "care": "☼"
+            "care": "Soft Sedum will not survive a hard frost. They require bright indoor light or full sun, great drainage, and infrequent waterings."
         }
     ]
 }
