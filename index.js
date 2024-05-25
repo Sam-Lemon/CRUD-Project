@@ -1,4 +1,4 @@
-const URL_ENDPOINT = "https://664ed178fafad45dfae12bcc.mockapi.io/succulents";
+const URL_ENDPOINT = "https://664ed178fafad45dfae12bcc.mockapi.io/succulents";  //API URL
 
 function fetchSucculents() {
     // console.log("testing if page linked to server");
@@ -66,7 +66,7 @@ $('#submit-succulent').click(function (e) {
   })
 
 //DELETE SUCCULENT
-function deleteSucculent(id) {  //using delete method with ajax, using specific element id to remove succulent on the click of the button
+function deleteSucculent(id) {  //using ajax delete method, using specific element id to remove succulent on the click of the button
     $.ajax(`${URL_ENDPOINT}/${id}`, {
         method: 'DELETE',
         success: function() {
